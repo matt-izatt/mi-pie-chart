@@ -14,12 +14,12 @@
     "typescript",
     "d3"
   ],
-  "homepage": "https://github.com/matt-izatt/@mattt-izatt/@matt-izatt/@matt-izatt/mi-pie-chart#readme",
+  "homepage": "https://github.com/matt-izatt/mi-pie-chart#readme",
   "repository": {
-    "url": "git://github.com/matt-izatt/@mattt-izatt/@matt-izatt/@matt-izatt/mi-pie-chart.git"
+    "url": "git://github.com/matt-izatt/mi-pie-chart.git"
   },
   "bugs": {
-    "url": "https://github.com/matt-izatt/@mattt-izatt/@matt-izatt/@matt-izatt/mi-pie-chart/issues"
+    "url": "https://github.com/matt-izatt/mi-pie-chart/issues"
   },
   "files": [
     "index.js",

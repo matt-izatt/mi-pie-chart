@@ -43,7 +43,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       - run: npm ci
       - run: echo registry=https://npm.pkg.github.com/matt-izatt >> .npmrc
-      - run: sed -i 's/mi-pie-chart/@matt-izatt\/mi-pie-chart/g' package.json
+      - run: sed -i '0,/mi-pie-chart/ s/mi-pie-chart/@matt-izatt\/mi-pie-chart/' package.json
       - run: cat package.json
       - run: npm publish
         env:
