@@ -1,20 +1,12 @@
 {
-  "name": "mi-pie-chart",
+  "name": "@matt-izatt/mi-pie-chart",
   "version": "1.0.0",
   "description": "An SVG pie chart built with Typescript and D3",
-  "files": [
-    "index.js",
-    "index.d.ts"
-  ],
-  "main": "index.js",
-  "types": "index.d.ts",
+  "author": "Matt Izatt <matt.izatt@hotmail.co.uk>",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/matt-izatt/mi-pie-chart.git"
   },
   "keywords": [
     "pie",
@@ -22,12 +14,19 @@
     "typescript",
     "d3"
   ],
-  "author": "Matt Izatt <matt.izatt@hotmail.co.uk>",
-  "license": "MIT",
+  "homepage": "https://github.com/matt-izatt/mi-pie-chart#readme",
+  "repository": {
+    "url": "git://github.com/matt-izatt/mi-pie-chart.git"
+  },
   "bugs": {
     "url": "https://github.com/matt-izatt/mi-pie-chart/issues"
   },
-  "homepage": "https://github.com/matt-izatt/mi-pie-chart#readme",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
   "dependencies": {
     "d3": "^5.15.0"
   },
