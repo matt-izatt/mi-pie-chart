@@ -167,7 +167,7 @@ export class PieChart {
       .transition()
       .duration(100)
       // @ts-ignore
-      .attr("fill", datum => datum.data?.hoverColor || styles?.segmentHoverFillColor || "#188B87");
+      .attr("fill", d => d.data?.hoverColor || styles?.segmentHoverFillColor || "#188B87");
   }
 
   private handleMouseOut(datum: any, index: number, nodes: any[], styles): void {
@@ -175,7 +175,7 @@ export class PieChart {
       .transition()
       .duration(100)
       // @ts-ignore
-      .attr("fill", datum => datum.data?.color || styles?.segmentFillColor || "#E9EAEF");
+      .attr("fill", d => d.data?.color || styles?.segmentFillColor || "#E9EAEF");
   }
 
 }
