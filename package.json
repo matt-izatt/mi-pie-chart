@@ -1,6 +1,6 @@
 {
   "name": "mi-pie-chart",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An SVG pie chart built with Typescript and D3",
   "author": "Matt Izatt <matt.izatt@hotmail.co.uk>",
   "license": "MIT",
