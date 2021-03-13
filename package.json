@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "test": "jest",
-    "build": "tsc"
+    "build": "tsc",
+    "postversion": "git push && git push --tags"
   },
   "keywords": [
     "pie",
