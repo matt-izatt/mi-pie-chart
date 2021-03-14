@@ -3,6 +3,7 @@
 <p align="center">
   An SVG pie chart built with Typescript and D3.
   <br>
+  <br>
   This package is part of a group of basic charts for use in any web application.
 </p>
 
