@@ -5,6 +5,8 @@
   <br>
   <br>
   This package is part of a group of basic charts for use in any web application.
+  <br>
+  <br>
 </p>
 
 <p align="center">
