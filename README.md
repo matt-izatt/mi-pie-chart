@@ -1,19 +1,37 @@
-<div style="text-align: center;">
-<h1>MI Pie Chart</h1>
-<hr>
-An SVG pie chart built with Typescript and D3.
+<h1 align="center">MI Pie Chart</h1>
 
-This package is part of a group of basic charts for use in any web application.
+<p align="center">
+  An SVG pie chart built with Typescript and D3.
+  <br>
+  This package is part of a group of basic charts for use in any web application.
+</p>
 
-[![Build](https://github.com/matt-izatt/mi-pie-chart/actions/workflows/build.yml/badge.svg)](https://github.com/matt-izatt/mi-pie-chart/actions/workflows/build.yml)
-![npm](https://img.shields.io/npm/v/mi-pie-chart?logo=npm)
-![GitHub](https://img.shields.io/github/license/matt-izatt/mi-pie-chart)
+<p align="center">
+  <a href="https://github.com/matt-izatt/mi-pie-chart/actions/workflows/build.yml">
+    <img src="https://github.com/matt-izatt/mi-pie-chart/actions/workflows/build.yml/badge.svg" alt="Build" />
+  </a>&nbsp;
+  <a href="https://www.npmjs.com/package/mi-pie-chart">
+    <img src="https://img.shields.io/npm/v/mi-pie-chart?logo=npm" alt="NPM" />
+  </a>&nbsp;
+  <a href="https://github.com/matt-izatt/mi-pie-chart">
+    <img src="https://img.shields.io/github/license/matt-izatt/mi-pie-chart" alt="License" />
+  </a>
+</p>
 
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=matt-izatt_mi-pie-chart&metric=bugs)](https://sonarcloud.io/dashboard?id=matt-izatt_mi-pie-chart)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=matt-izatt_mi-pie-chart&metric=code_smells)](https://sonarcloud.io/dashboard?id=matt-izatt_mi-pie-chart)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=matt-izatt_mi-pie-chart&metric=ncloc)](https://sonarcloud.io/dashboard?id=matt-izatt_mi-pie-chart)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=matt-izatt_mi-pie-chart&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=matt-izatt_mi-pie-chart)
-</div>
+<p align="center">
+  <a href="https://sonarcloud.io/dashboard?id=matt-izatt_mi-pie-chart">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=matt-izatt_mi-pie-chart&metric=bugs" alt="Bugs" />
+  </a>&nbsp;
+  <a href="https://sonarcloud.io/dashboard?id=matt-izatt_mi-pie-chart">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=matt-izatt_mi-pie-chart&metric=code_smells" alt="Code Smells" />
+  </a>&nbsp;
+  <a href="https://sonarcloud.io/dashboard?id=matt-izatt_mi-pie-chart">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=matt-izatt_mi-pie-chart&metric=ncloc" alt="Lines Of Code" />
+  </a>
+  <a href="https://sonarcloud.io/dashboard?id=matt-izatt_mi-pie-chart">
+    <img src="https://sonarcloud.io/api/project_badges/measure?project=matt-izatt_mi-pie-chart&metric=reliability_rating" alt="Reliability Rating" />
+  </a>
+</p>
 
 ---
 
