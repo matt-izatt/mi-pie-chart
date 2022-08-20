@@ -3,9 +3,7 @@
 name: Deployment
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   deployment:
@@ -14,10 +12,14 @@ jobs:
       name: Development
       url: https://github.com
     steps:
-      - name: deploy
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup node
+        uses: actions/setup-node@v3
         with:
-          node-version: 12
-      - run: npm ci
-      - run: npm test
+          node-version: 16.13.x
+          cache: npm
+
+      - name: Install
+        run: npm ci
